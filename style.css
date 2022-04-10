@@ -1,0 +1,74 @@
+body{
+    background-image:url(../HTMl/images/g.jpg);
+    text-align: center;
+}
+.header{
+    box-shadow: 0 0 10px black ;
+    text-align: center;
+    padding:30px;
+    font-family: "Comic sans MS",sans-serif;
+    width: 500px;
+    margin: 150px auto;
+    color: white;
+    background-color: rgba(0, 0,0,0.2);
+}
+.header #txt:hover{
+    font-style: bold;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+}
+.header #inputField{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+.header #inputField:hover{
+    box-shadow: 0 5px 10px black;
+    color:blueviolet;
+    font-family: "Comic sans MS",sans-serif;
+    font-style: bold;
+    border-radius: 5px;
+}
+.header #addToDo{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: Bold;
+    border-radius:5px;
+    background-color: blueviolet;
+    color: white;
+    
+}
+.header #addToDo:hover{
+    box-shadow: 0 5px 10px black;
+      cursor:pointer;
+    }
+    #toDoContainer{
+        background-color: #ffbb00;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgb(120, 92, 92);
+        width:200px;
+        margin:0px 100px auto;
+        width: 250px;
+        cursor:pointer;
+    }
+    #box{
+        text-align: center;
+        background:linear-gradient(45deg, deeppink,blueviolet);
+        width: 250px;
+        margin:10px auto;
+        justify-content: space-between;
+
+    }
+    a{
+        padding-left: 150px;
+        border-style: none;
+        font-style: none;
+        color: white;
+        text-decoration: none;
+
+    }
